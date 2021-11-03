@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +15,6 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
-
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 import com.example.latestnews.R;
 import com.example.latestnews.databinding.ActivityHomeBinding;
@@ -24,9 +22,7 @@ import com.example.latestnews.ui.menu.AboutFragment;
 import com.example.latestnews.ui.menu.ContactFragment;
 import com.example.latestnews.ui.menu.MediaFragment;
 import com.google.android.material.navigation.NavigationView;
-
 import org.jetbrains.annotations.NotNull;
-
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
