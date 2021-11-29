@@ -6,7 +6,7 @@
     <data>
         <variable
             name="art"
-            type="com.example.latestnews.model.Art" />
+            type="com.example.anpiemed.model.Art" />
     </data>
 
     <androidx.cardview.widget.CardView
@@ -24,11 +24,12 @@
 
             <ImageView
                 android:id="@+id/image_view"
-                picasso="@{art.image}"
+
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/ic_image"
+                tools:src="@drawable/ic_image"
+
                 app:layout_constraintBottom_toBottomOf="@id/title_text_view"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

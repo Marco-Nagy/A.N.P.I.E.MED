@@ -7,7 +7,7 @@
     <data>
 <variable
     name="article"
-    type="com.example.latestnews.model.Article" />
+    type="com.example.anpiemed.model.Article" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

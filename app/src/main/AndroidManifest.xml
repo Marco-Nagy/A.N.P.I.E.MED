@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.latestnews">
+    package="com.example.anpiemed">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,10 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MvvMApplication">
-        <activity android:name=".ui.home.HomeActivity" />
-        <activity android:name=".ui.main.MainActivity" />
+        <activity android:name="com.example.anpiemed.ui.home.HomeActivity" />
+        <activity android:name="com.example.anpiemed.ui.main.MainActivity" />
         <activity
-            android:name=".ui.main.SplashActivity"
+            android:name="com.example.anpiemed.ui.main.SplashActivity"
             android:theme="@style/splashStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

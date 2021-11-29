@@ -7,7 +7,7 @@
 
     <activity
         android:id="@+id/homeActivity"
-        android:name="com.example.latestnews.ui.home.HomeActivity"
+        android:name="com.example.anpiemed.ui.home.HomeActivity"
         android:label="HomeActivity">
         <action
             android:id="@+id/action_homeActivity_to_aboutFragment"
@@ -15,24 +15,24 @@
     </activity>
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.latestnews.ui.menu.AboutFragment"
+        android:name="com.example.anpiemed.ui.menu.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" >
 
     </fragment>
     <fragment
         android:id="@+id/languageFragment"
-        android:name="com.example.latestnews.ui.menu.LanguageFragment"
+        android:name="com.example.anpiemed.ui.menu.LanguageFragment"
         android:label="fragment_language"
         tools:layout="@layout/fragment_language" />
     <fragment
         android:id="@+id/contactFragment"
-        android:name="com.example.latestnews.ui.menu.ContactFragment"
+        android:name="com.example.anpiemed.ui.menu.ContactFragment"
         android:label="fragment_contact"
         tools:layout="@layout/fragment_contact" />
     <fragment
         android:id="@+id/mediaFragment"
-        android:name="com.example.latestnews.ui.menu.MediaFragment"
+        android:name="com.example.anpiemed.ui.menu.MediaFragment"
         android:label="fragment_media"
         tools:layout="@layout/fragment_media" />
 </navigation>
