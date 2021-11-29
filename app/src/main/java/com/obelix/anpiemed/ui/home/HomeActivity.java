@@ -80,7 +80,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                         loadFragment(new BibliothecaFragment());
                         break;
                     case 6:
-                        loadFragment(new ArciveFragment());
+                        loadFragment(new ArchiveFragment());
                         break;
 
                 }
