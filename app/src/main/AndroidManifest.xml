@@ -11,10 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MvvMApplication">
-        <activity android:name="com.example.anpiemed.ui.home.HomeActivity" />
-        <activity android:name="com.example.anpiemed.ui.main.MainActivity" />
+        <activity android:name="com.obelix.anpiemed.ui.home.HomeActivity" />
+        <activity android:name="com.obelix.anpiemed.ui.main.MainActivity" />
         <activity
-            android:name="com.example.anpiemed.ui.main.SplashActivity"
+            android:name="com.obelix.anpiemed.ui.main.SplashActivity"
             android:theme="@style/splashStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

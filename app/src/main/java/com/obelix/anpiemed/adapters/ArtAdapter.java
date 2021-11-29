@@ -1,4 +1,4 @@
-package com.example.anpiemed.adapters;
+package com.obelix.anpiemed.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,9 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.example.anpiemed.R;
 import com.example.anpiemed.databinding.ArtItemBinding;
-import com.example.anpiemed.model.Art;
+import com.obelix.anpiemed.model.Art;
 
 import java.util.List;
 

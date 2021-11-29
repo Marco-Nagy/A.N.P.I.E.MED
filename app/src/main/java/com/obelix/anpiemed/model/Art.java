@@ -1,4 +1,4 @@
-package com.example.anpiemed.model;
+package com.obelix.anpiemed.model;
 
 public class Art {
     private int image;

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="art"
-            type="com.example.anpiemed.model.Art" />
+            type="com.obelix.anpiemed.model.Art" />
     </data>
 
     <androidx.cardview.widget.CardView
@@ -24,7 +24,6 @@
 
             <ImageView
                 android:id="@+id/image_view"
-
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:scaleType="fitXY"
@@ -50,7 +49,7 @@
                 android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:background="#CB0E0D0D"
-                android:gravity="top"
+                android:gravity="center_horizontal"
                 android:text="@{art.title}"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="#E6D436"
@@ -60,24 +59,25 @@
                 app:layout_constraintBottom_toTopOf="@id/text_view"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:text="News App" />
+                tools:text="Title" />
 
             <TextView
                 android:id="@+id/text_view"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:background="#CB0E0D0D"
-                android:gravity="center_horizontal"
+                android:gravity="start"
                 android:text="@{art.description}"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="#FFF"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:typeface="serif"
+                android:textSize="@dimen/_13ssp"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="sans-serif-medium"
+                android:lines="3"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/title_text_view"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:text="News App" />
+                tools:text="Description" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
