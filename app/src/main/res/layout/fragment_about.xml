@@ -7,9 +7,12 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:gravity="center"
+        android:background="#333144"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="@dimen/_50sdp"
-        android:text="About Us" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_38sdp"
+        android:text="@string/about_us" />
 
 </FrameLayout>
